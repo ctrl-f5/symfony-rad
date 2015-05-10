@@ -1,8 +1,12 @@
-Symfony Standard Edition
+Ctrl RAD Symfony Standard Edition
 ========================
 
-Welcome to the Symfony Standard Edition - a fully-functional Symfony2
+Welcome to the Ctrl RAD Symfony Standard Edition - a fully-functional Symfony2
 application that you can use as the skeleton for your new applications.
+
+In addition to the Symfony Standard Edition, this skeleton implements the following bundles:
+- [CtrlRadBundle][101]
+- [FosUserBundle][102]
 
 For details on how to download and get started with Symfony, see the
 [Installation][1] chapter of the Symfony Documentation.
@@ -67,3 +71,5 @@ Enjoy!
 [11]: http://symfony.com/doc/2.7/cookbook/logging/monolog.html
 [12]: http://symfony.com/doc/2.7/cookbook/assetic/asset_management.html
 [13]: http://symfony.com/doc/2.7/bundles/SensioGeneratorBundle/index.html
+[101]:  https://github.com/ctrl-f5/ctrl-rad-bundle
+[102]:  https://github.com/FriendsOfSymfony/FOSUserBundle
