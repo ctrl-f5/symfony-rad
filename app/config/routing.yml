@@ -1,3 +1,9 @@
+ctrl_rad:
+    resource: "@CtrlRadBundle/Resources/config/routing.yml"
+
+#
+# custom routes
+#
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
