@@ -8,9 +8,17 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 class DefaultController extends Controller
 {
     /**
-     * @Route("/", name="homepage")
+     * @Route("/", name="home")
      */
     public function indexAction()
+    {
+        return $this->redirect($this->generateUrl('homepage'));
+    }
+
+    /**
+     * @Route("/home", name="homepage")
+     */
+    public function homepageAction()
     {
         return $this->render('default/index.html.twig');
     }

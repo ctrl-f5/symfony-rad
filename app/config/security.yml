@@ -16,9 +16,13 @@ security:
             form_login:
                 provider: fos_userbundle
                 csrf_provider: form.csrf_provider
-                default_target_path: admin_
+                default_target_path: homepage
             logout:       true
             anonymous:    true
+
+    role_hierarchy:
+        ROLE_ADMIN:       ROLE_USER
+        ROLE_SUPER_ADMIN: [ROLE_ADMIN]
 
     access_control:
         - { path: ^/admin, role: ROLE_ADMIN }

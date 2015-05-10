@@ -74,7 +74,6 @@ doctrine:
         auto_generate_proxy_classes: "%kernel.debug%"
         auto_mapping: true
 
-
 # FOS User bundle
 fos_user:
     db_driver: orm
