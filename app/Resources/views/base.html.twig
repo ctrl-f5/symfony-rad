@@ -1,1 +1,11 @@
 {% extends "CtrlRadBundle::app.html.twig" %}
+
+{% block javascripts %}
+    {{ parent() }}
+
+    {% javascripts
+    'bundles/ctrlcms/js/markdown.js'
+    %}
+    <script src="{{ asset_url }}"></script>
+    {% endjavascripts %}
+{% endblock %}

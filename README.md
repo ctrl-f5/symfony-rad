@@ -11,6 +11,8 @@ In addition to the Symfony Standard Edition, this skeleton implements the follow
 For details on how to download and get started with Symfony, see the
 [Installation][1] chapter of the Symfony Documentation.
 
+> !! Requires PHP >=5.5 to be compatible with Symfony >=2.8
+
 What's inside?
 --------------
 
