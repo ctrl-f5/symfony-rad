@@ -8,7 +8,7 @@
     },
     "require": {
         "php": ">=5.5",
-        "symfony/symfony": "~2.7@dev",
+        "symfony/symfony": "2.7.*",
         "doctrine/orm": "^2.4.8",
         "doctrine/dbal": "<2.5",
         "doctrine/doctrine-bundle": "~1.4",
@@ -19,7 +19,7 @@
         "sensio/framework-extra-bundle": "~3.0",
         "incenteev/composer-parameter-handler": "~2.0",
         "trsteel/ckeditor-bundle": "~1.8",
-        "ctrl-f5/ctrl-common": "@dev",
+        "ctrl-f5/ctrl-common": "1.0.x-dev",
         "ctrl-f5/ctrl-rad-bundle": "@dev",
         "erusev/parsedown": "^1.5"
     },
